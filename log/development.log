@@ -4092,3 +4092,526 @@ Served asset /home.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 14:19:47 +0000
 Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 14:30:48 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (32.5ms)
+Compiled bootstrap_and_overrides.css  (2650ms)  (pid 19801)
+Compiled home.css  (1ms)  (pid 19801)
+Compiled application.css  (2683ms)  (pid 19801)
+Compiled jquery.js  (5ms)  (pid 19801)
+Compiled jquery_ujs.js  (0ms)  (pid 19801)
+Compiled bootstrap-transition.js  (0ms)  (pid 19801)
+Compiled bootstrap-affix.js  (0ms)  (pid 19801)
+Compiled bootstrap-alert.js  (0ms)  (pid 19801)
+Compiled bootstrap-button.js  (0ms)  (pid 19801)
+Compiled bootstrap-carousel.js  (0ms)  (pid 19801)
+Compiled bootstrap-collapse.js  (0ms)  (pid 19801)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 19801)
+Compiled bootstrap-modal.js  (0ms)  (pid 19801)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 19801)
+Compiled bootstrap-tab.js  (0ms)  (pid 19801)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 19801)
+Compiled bootstrap-popover.js  (0ms)  (pid 19801)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 19801)
+Compiled bootstrap.js  (149ms)  (pid 19801)
+Compiled home.js  (114ms)  (pid 19801)
+Compiled application.js  (329ms)  (pid 19801)
+Completed 200 OK in 3195ms (Views: 3194.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 14:30:52 +0000
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 14:30:52 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 14:30:54 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 14:30:54 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:54 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:54 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:54 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:55 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:55 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:55 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:55 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:55 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/bf-bg.png" for 93.32.166.30 at 2012-09-25 14:30:56 +0000
+Served asset /bf-bg.png - 304 Not Modified (44ms)
+
+
+Started GET "/assets/dark_Tire.png" for 93.32.166.30 at 2012-09-25 14:30:57 +0000
+Served asset /dark_Tire.png - 304 Not Modified (5ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 14:38:56 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Compiled bootstrap_and_overrides.css  (1683ms)  (pid 20158)
+Compiled application.css  (4ms)  (pid 20158)
+Completed 200 OK in 1889ms (Views: 1888.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 14:38:59 +0000
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 14:38:59 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (53ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:00 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bf-bg.png" for 93.32.166.30 at 2012-09-25 14:39:01 +0000
+Served asset /bf-bg.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 14:43:08 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (32.7ms)
+Compiled bootstrap_and_overrides.css  (1373ms)  (pid 20358)
+Compiled application.css  (3ms)  (pid 20358)
+Completed 200 OK in 1544ms (Views: 1543.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 14:43:10 +0000
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 14:43:10 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (38ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /bootstrap.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 14:43:12 +0000
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/bf-bg.png" for 93.32.166.30 at 2012-09-25 14:43:13 +0000
+Served asset /bf-bg.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 14:45:50 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Compiled application.css  (190ms)  (pid 20562)
+Completed 200 OK in 368ms (Views: 367.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 14:45:52 +0000
+Served asset /application.css - 200 OK (14ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 14:45:52 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 14:45:52 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 14:45:52 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:52 +0000
+Served asset /jquery.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:52 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:53 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:53 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:53 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:53 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:53 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 14:45:54 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 16:39:04 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (44.8ms)
+Compiled bootstrap_and_overrides.css  (1625ms)  (pid 26149)
+Compiled application.css  (10ms)  (pid 26149)
+Completed 200 OK in 1838ms (Views: 1836.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 16:39:07 +0000
+Served asset /application.css - 200 OK (59ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 16:39:07 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:07 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 16:39:07 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 16:39:07 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:10 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:10 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:10 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:10 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:10 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:11 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:11 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:11 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:11 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:11 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:11 +0000
+Served asset /bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:12 +0000
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:12 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:12 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:12 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:12 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 16:39:12 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bf-bg.png" for 93.32.166.30 at 2012-09-25 16:39:12 +0000
+Served asset /bf-bg.png - 304 Not Modified (1ms)
