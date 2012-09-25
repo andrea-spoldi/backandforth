@@ -6,6 +6,8 @@ body
     padding-top: 90px;
     background-color: black;
     background-image: url(image_path('bf-bg.gif'));
+    background-position: right;
+    background-repeat: x-repeat;
 }
 .navbar-inner
 {
