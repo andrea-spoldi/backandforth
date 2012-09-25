@@ -1,0 +1,2216 @@
+
+
+Started GET "/assets/rails.png" for 93.32.187.211 at 2012-09-24 21:49:22 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/home/index" for 93.32.187.211 at 2012-09-24 21:49:30 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Compiled bootstrap_and_overrides.css  (2989ms)  (pid 9270)
+Compiled home.css  (1ms)  (pid 9270)
+Compiled application.css  (3085ms)  (pid 9270)
+Compiled jquery.js  (4ms)  (pid 9270)
+Compiled jquery_ujs.js  (0ms)  (pid 9270)
+Compiled bootstrap-transition.js  (0ms)  (pid 9270)
+Compiled bootstrap-affix.js  (0ms)  (pid 9270)
+Compiled bootstrap-alert.js  (0ms)  (pid 9270)
+Compiled bootstrap-button.js  (0ms)  (pid 9270)
+Compiled bootstrap-carousel.js  (0ms)  (pid 9270)
+Compiled bootstrap-collapse.js  (0ms)  (pid 9270)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 9270)
+Compiled bootstrap-modal.js  (0ms)  (pid 9270)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 9270)
+Compiled bootstrap-tab.js  (0ms)  (pid 9270)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 9270)
+Compiled bootstrap-popover.js  (0ms)  (pid 9270)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 9270)
+Compiled bootstrap.js  (187ms)  (pid 9270)
+Compiled home.js  (122ms)  (pid 9270)
+Compiled application.js  (344ms)  (pid 9270)
+Completed 500 Internal Server Error in 3687ms
+
+ActionView::Template::Error (Missing partial layouts/navigation with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/root/backandforth/app/views"
+):
+    15:     <header class="navbar navbar-fixed-top">
+    16:       <nav class="navbar-inner">
+    17:         <div class="container">
+    18:           <%= render 'layouts/navigation' %>
+    19:         </div>
+    20:       </nav>
+    21:     </header>
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__938312814984157372_25605260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/home/index" for 93.32.187.211 at 2012-09-24 21:52:30 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (33.0ms)
+Completed 500 Internal Server Error in 155ms
+
+ActionView::Template::Error (Missing partial layouts/navigation with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/root/backandforth/app/views"
+):
+    15:     <header class="navbar navbar-fixed-top">
+    16:       <nav class="navbar-inner">
+    17:         <div class="container">
+    18:           <%= render 'layouts/navigation' %>
+    19:         </div>
+    20:       </nav>
+    21:     </header>
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3474716622138194159_70201309035400'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/home/index" for 93.32.187.211 at 2012-09-24 21:54:27 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (22.8ms)
+Completed 500 Internal Server Error in 183ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0x007fb4c4484ee8>:0x007fb4c4546e08>):
+    1: <%= link_to "Home", root_path, :class => 'brand' %>
+    2: <ul class="nav">
+    3:   <% if user_signed_in? %>
+    4:     <li>
+  app/views/layouts/_navigation.html.erb:1:in `_app_views_layouts__navigation_html_erb__4430657099667147762_70207179939340'
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__2495408678242233032_30652740'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/home/index" for 93.32.187.211 at 2012-09-24 21:58:40 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (41.3ms)
+Completed 500 Internal Server Error in 163ms
+
+ActionView::Template::Error (Missing partial layouts/messages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/root/backandforth/app/views"
+):
+    23:         <div class="content">
+    24:            <div class="row">
+    25:             <div class="span12">
+    26:               <%= render 'layouts/messages' %>
+    27:               <%= yield %>
+    28:             </div>
+    29:           </div>
+  app/views/layouts/application.html.erb:26:in `_app_views_layouts_application_html_erb__1165424759043926221_70340425710860'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/home/index" for 93.32.187.211 at 2012-09-24 22:00:08 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 141ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.187.211 at 2012-09-24 22:00:09 +0000
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.187.211 at 2012-09-24 22:00:09 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.187.211 at 2012-09-24 22:00:10 +0000
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-modal.js - 200 OK (36ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap.js - 200 OK (17ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-dropdown.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /bootstrap-typeahead.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /application.js - 200 OK (23ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.187.211 at 2012-09-24 22:00:11 +0000
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/home/index" for 93.32.187.211 at 2012-09-24 22:13:43 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (29.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 102ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.187.211 at 2012-09-24 22:13:44 +0000
+Served asset /application.css - 304 Not Modified (57ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.187.211 at 2012-09-24 22:13:45 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.187.211 at 2012-09-24 22:13:45 +0000
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:45 +0000
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-collapse.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.187.211 at 2012-09-24 22:13:46 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 93.32.166.30 at 2012-09-25 08:48:26 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (25ms)
+
+
+Started GET "/home/index" for 93.32.166.30 at 2012-09-25 08:48:31 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (30.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 235ms (Views: 234.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 08:48:32 +0000
+Served asset /application.css - 200 OK (60ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:32 +0000
+Served asset /bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 08:48:32 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 08:48:32 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-scrollspy.js - 200 OK (31ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-tooltip.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /bootstrap.js - 200 OK (14ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:34 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:35 +0000
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 08:48:35 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/home/index" for 93.32.166.30 at 2012-09-25 09:57:45 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 239ms (Views: 238.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:48 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:49 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:50 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 09:57:50 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/home/index" for 93.32.166.30 at 2012-09-25 10:00:22 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 136ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /jquery.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:23 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 10:00:24 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/home/img/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 10:00:25 +0000
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slide/img-1.jpg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/index" for 93.32.166.30 at 2012-09-25 10:05:59 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 10:05:59 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:05:59 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 10:05:59 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 10:05:59 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 10:05:59 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 10:06:00 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/home/img/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 10:06:01 +0000
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slide/img-1.jpg"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/index" for 93.32.166.30 at 2012-09-25 10:21:13 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 10:21:14 +0000
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:21:14 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:14 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 10:21:14 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 10:21:15 +0000
+Served asset /slide/img-1.jpg - 200 OK (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:17 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:17 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:17 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:17 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:17 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:17 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:18 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:19 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 10:21:19 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 10:41:19 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (45.9ms)
+Completed 200 OK in 118ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 10:41:20 +0000
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:20 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:21 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:22 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:22 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:22 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:22 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:22 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:23 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:23 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:23 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /bootstrap.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:24 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:25 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:25 +0000
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 10:41:25 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 10:46:13 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Compiled bootstrap_and_overrides.css  (1800ms)  (pid 8662)
+Compiled application.css  (10ms)  (pid 8662)
+Completed 200 OK in 2035ms (Views: 2034.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 10:46:17 +0000
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:46:17 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (52ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:19 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:20 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:20 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:20 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:20 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:21 +0000
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/images/main-bg.png" for 93.32.166.30 at 2012-09-25 10:46:21 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/main-bg.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:21 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:21 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/img/dark_Tire.png" for 93.32.166.30 at 2012-09-25 10:46:21 +0000
+Served asset /img/dark_Tire.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/dark_Tire.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/img/main-bg.png" for 93.32.166.30 at 2012-09-25 10:46:21 +0000
+Served asset /img/main-bg.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/main-bg.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:21 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 10:46:23 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:46:55 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 10:50:08 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Compiled bootstrap_and_overrides.css  (1605ms)  (pid 8924)
+Compiled application.css  (12ms)  (pid 8924)
+Completed 200 OK in 1801ms (Views: 1800.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 10:50:11 +0000
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:50:11 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (38ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 10:50:14 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 10:50:14 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:14 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:14 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:14 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:15 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:16 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:16 +0000
+Served asset /bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:16 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:16 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:16 +0000
+Served asset /application.js - 304 Not Modified (64ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 10:50:16 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/images/main-bg.png" for 93.32.166.30 at 2012-09-25 10:50:16 +0000
+Served asset /images/main-bg.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/images/dark_Tire.png" for 93.32.166.30 at 2012-09-25 10:50:17 +0000
+Served asset /images/dark_Tire.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/dark_Tire.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 10:54:24 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (Invalid CSS after "...'images/main-bg": expected ")", was ".png' %>');;"
+  (in /root/backandforth/app/assets/stylesheets/bootstrap_and_overrides.css.scss)):
+    6:     <title><%= content_for?(:title) ? yield(:title) : "Myapp" %></title>
+    7:     <meta name="description" content="">
+    8:     <meta name="author" content="">
+    9:     <%= stylesheet_link_tag    "application", :media => "all" %>
+    10:     <%= csrf_meta_tags %>
+    11:     <%= yield(:head) %>
+    12:   </head>
+  app/assets/stylesheets/bootstrap_and_overrides.css.scss:7
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___785396582932317723_70090007680840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 10:55:17 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (43.3ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (Invalid CSS after "...'images/main-bg": expected ")", was ".png' %>');"
+  (in /root/backandforth/app/assets/stylesheets/bootstrap_and_overrides.css.scss)):
+    6:     <title><%= content_for?(:title) ? yield(:title) : "Myapp" %></title>
+    7:     <meta name="description" content="">
+    8:     <meta name="author" content="">
+    9:     <%= stylesheet_link_tag    "application", :media => "all" %>
+    10:     <%= csrf_meta_tags %>
+    11:     <%= yield(:head) %>
+    12:   </head>
+  app/assets/stylesheets/bootstrap_and_overrides.css.scss:7
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__4031523226681884572_69920258328300'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.9ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 10:56:31 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 105ms
+
+ActionView::Template::Error (Invalid CSS after "...und-image: url(": expected ")", was "<%= asset_path ..."
+  (in /root/backandforth/app/assets/stylesheets/bootstrap_and_overrides.css.scss)):
+    6:     <title><%= content_for?(:title) ? yield(:title) : "Myapp" %></title>
+    7:     <meta name="description" content="">
+    8:     <meta name="author" content="">
+    9:     <%= stylesheet_link_tag    "application", :media => "all" %>
+    10:     <%= csrf_meta_tags %>
+    11:     <%= yield(:head) %>
+    12:   </head>
+  app/assets/stylesheets/bootstrap_and_overrides.css.scss:7
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___489934313608804029_70067425526000'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 10:58:08 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Compiled bootstrap_and_overrides.css  (1569ms)  (pid 9315)
+Compiled application.css  (4ms)  (pid 9315)
+Completed 200 OK in 1759ms (Views: 1758.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 10:58:10 +0000
+Served asset /application.css - 304 Not Modified (60ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 10:58:11 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 10:58:11 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 10:58:13 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:13 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:13 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:13 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:13 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:14 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /bootstrap.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /application.js - 304 Not Modified (69ms)
+
+
+Started GET "/assets/main-bg.png" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /main-bg.png - 200 OK (4ms)
+
+
+Started GET "/assets/images/main-bg.png" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /images/main-bg.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/main-bg.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 10:58:15 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/images/dark_Tire.png" for 93.32.166.30 at 2012-09-25 10:58:16 +0000
+Served asset /images/dark_Tire.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/dark_Tire.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 11:00:07 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Compiled bootstrap_and_overrides.css  (1397ms)  (pid 9407)
+Compiled application.css  (3ms)  (pid 9407)
+Completed 200 OK in 1566ms (Views: 1565.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 11:00:09 +0000
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 11:00:10 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:12 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:13 +0000
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/main-bg.png" for 93.32.166.30 at 2012-09-25 11:00:14 +0000
+Served asset /main-bg.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:14 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:14 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/dark_Tire.png" for 93.32.166.30 at 2012-09-25 11:00:15 +0000
+Served asset /dark_Tire.png - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 11:00:15 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 11:08:00 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Compiled bootstrap_and_overrides.css  (272ms)  (pid 9885)
+Compiled application.css  (3ms)  (pid 9885)
+Completed 200 OK in 441ms (Views: 440.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 11:08:02 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 11:08:02 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 11:08:02 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 11:08:02 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:02 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:02 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:03 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:04 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:04 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:04 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:04 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:04 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 11:08:05 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/img/main-bg.png" for 93.32.166.30 at 2012-09-25 11:08:05 +0000
+Served asset /img/main-bg.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/main-bg.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/img/dark_Tire.png" for 93.32.166.30 at 2012-09-25 11:08:05 +0000
+Served asset /img/dark_Tire.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/dark_Tire.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 11:08:58 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (46.2ms)
+Compiled bootstrap_and_overrides.css  (1625ms)  (pid 9982)
+Compiled application.css  (29ms)  (pid 9982)
+Completed 200 OK in 1934ms (Views: 1933.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 11:09:01 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (23ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:02 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 11:09:02 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 11:09:05 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:05 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:05 +0000
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:05 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:05 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:05 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:05 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:06 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:06 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:06 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:06 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:06 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:06 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:06 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:07 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:07 +0000
+Served asset /bootstrap.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:08 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 11:09:08 +0000
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 11:09:08 +0000
+Served asset /application.css - 304 Not Modified (53ms)
+
+
+Started GET "/assets/img/main-bg.png" for 93.32.166.30 at 2012-09-25 11:09:09 +0000
+Served asset /img/main-bg.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/main-bg.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/img/dark_Tire.png" for 93.32.166.30 at 2012-09-25 11:09:09 +0000
+Served asset /img/dark_Tire.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/dark_Tire.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  rack (1.4.1) lib/rack/commonlogger.rb:20:in `call'
+  puma (1.6.3) lib/puma/server.rb:412:in `handle_request'
+  puma (1.6.3) lib/puma/server.rb:306:in `process_client'
+  puma (1.6.3) lib/puma/server.rb:215:in `block in run'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `call'
+  puma (1.6.3) lib/puma/thread_pool.rb:94:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 11:14:56 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Compiled bootstrap_and_overrides.css  (1578ms)  (pid 10230)
+Compiled application.css  (4ms)  (pid 10230)
+Completed 200 OK in 1782ms (Views: 1782.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 11:14:59 +0000
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 11:14:59 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 11:15:02 +0000
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:02 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:02 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:02 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:02 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:04 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:05 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:05 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:05 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:05 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:05 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:06 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:06 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:06 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:06 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:06 +0000
+Served asset /bootstrap.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 11:15:07 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:08 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:09 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 11:15:09 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 11:16:15 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Compiled bootstrap_and_overrides.css  (1471ms)  (pid 10280)
+Compiled application.css  (4ms)  (pid 10280)
+Completed 200 OK in 1669ms (Views: 1668.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 11:16:18 +0000
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 11:16:18 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 11:16:21 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 11:16:21 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:21 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:21 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:21 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:23 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:23 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:23 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:24 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:24 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:24 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:24 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:24 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:25 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:25 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:25 +0000
+Served asset /bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:25 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:25 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:26 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 11:16:26 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 11:25:40 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 96ms
+
+ActionView::Template::Error (Invalid CSS after "...e_path('main-bg": expected ")", was ".png'));"
+  (in /root/backandforth/app/assets/stylesheets/bootstrap_and_overrides.css.scss)):
+    6:     <title><%= content_for?(:title) ? yield(:title) : "Myapp" %></title>
+    7:     <meta name="description" content="">
+    8:     <meta name="author" content="">
+    9:     <%= stylesheet_link_tag    "application", :media => "all" %>
+    10:     <%= csrf_meta_tags %>
+    11:     <%= yield(:head) %>
+    12:   </head>
+  app/assets/stylesheets/bootstrap_and_overrides.css.scss:48
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__872611625218502510_70160002201920'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 93.32.166.30 at 2012-09-25 11:26:40 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Compiled bootstrap_and_overrides.css  (1526ms)  (pid 10761)
+Compiled application.css  (4ms)  (pid 10761)
+Completed 200 OK in 1728ms (Views: 1727.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.32.166.30 at 2012-09-25 11:26:43 +0000
+Served asset /application.css - 304 Not Modified (59ms)
+
+
+Started GET "/assets/home.css?body=1" for 93.32.166.30 at 2012-09-25 11:26:43 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 93.32.166.30 at 2012-09-25 11:26:43 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (6ms)
+
+
+Started GET "/assets/slide/img-1.jpg" for 93.32.166.30 at 2012-09-25 11:26:46 +0000
+Served asset /slide/img-1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:46 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:46 +0000
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:46 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:46 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:47 +0000
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:47 +0000
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:47 +0000
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:47 +0000
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:48 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:49 +0000
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/main-bg.png" for 93.32.166.30 at 2012-09-25 11:26:49 +0000
+Served asset /main-bg.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dark_Tire.png" for 93.32.166.30 at 2012-09-25 11:26:49 +0000
+Served asset /dark_Tire.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 93.32.166.30 at 2012-09-25 11:26:51 +0000
+Served asset /bootstrap.js - 304 Not Modified (15ms)
