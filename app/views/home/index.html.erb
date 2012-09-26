@@ -28,7 +28,7 @@
                 <div class="thumbnail">
                 <img src="http://placehold.it/260x180" alt="">
                 <h5>Prossimo live</h5>
-                <% Gigs.find(:last) do |gig| %>
+                <% Gig.find(:last) do |gig| %>
                 <p><%= gig.data %></p>
                 <p><%= gig.luogo %></p>
                 <% end %>
