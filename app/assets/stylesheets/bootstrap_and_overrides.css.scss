@@ -46,6 +46,17 @@ body
   filter: none;
 }
 
+.nav > li > a {
+  display: block;
+  color: white;
+}
+
+.nav > li > a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #eeeeee;
+}
+
 #myCarousel
 {
     background: #e3e3e3;
