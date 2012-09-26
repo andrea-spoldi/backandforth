@@ -35,11 +35,11 @@ body
   padding-left: 20px;
   padding-right: 20px;
   background-color: #000000;
-  background-image: -moz-linear-gradient(top, white, #000000);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#111111), to(#000000));
-  background-image: -webkit-linear-gradient(top, #111111, #000000);
-  background-image: -o-linear-gradient(top, #111111, #000000);
-  background-image: linear-gradient(to bottom, #111111, #000000);
+  background-image: -moz-linear-gradient(top, grayDark, #000000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(grayDark), to(#000000));
+  background-image: -webkit-linear-gradient(top, grayDark, #000000);
+  background-image: -o-linear-gradient(top, grayDark, #000000);
+  background-image: linear-gradient(to bottom, grayDark, #000000);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
   border: 1px solid #000000;
