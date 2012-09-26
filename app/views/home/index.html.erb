@@ -27,8 +27,11 @@
             <li class="box span3">
                 <div class="thumbnail">
                 <img src="http://placehold.it/260x180" alt="">
-                <h5>Thumbnail label</h5>
-                <p>Thumbnail caption right here...</p>
+                <h5>Prossimo live</h5>
+                <% @gigs.last do |gig| %>
+                <p><%= gig.data %></p>
+                <p><%= gig.luogo %></p>
+                <% end %>
                 </div>
             </li>
 
