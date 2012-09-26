@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Magneto';
-  src: url('<%= asset_path('MAGNETO_FOO.ttf') %>');
+  src: asset-url('MAGNETO_FOO.ttf', font) format('truetype'),
   font-weight: normal;
   font-style: normal;
 }
