@@ -1,5 +1,13 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
+
+@font-face {
+  font-family: 'Magneto';
+  src: url('<%= asset_path('MAGNETO_FOO.ttf') %>');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body
 {
     padding-top: 90px;
@@ -13,11 +21,11 @@ body
   float: left;
   display: block;
   padding: 8px;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 1;
-  color: #4fbbdf;
-  font-family: 'Arvo', Georgia, Times, serif;
+  color: #ffffff;
+  font-family: 'Magneto';
   text-transform: uppercase;
 }
 
