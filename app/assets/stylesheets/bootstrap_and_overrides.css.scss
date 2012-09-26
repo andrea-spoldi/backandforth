@@ -44,7 +44,9 @@ h2.one { margin-top: 0 }
 h2.one span
 {   
     color: red;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 0 0 2px #fff; /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 2px #fff;
+    -webkit-text-shadow: 0 0 2px #fff;
     padding: 0  20px 0 0;
     position: relative;
     z-index: 5;
