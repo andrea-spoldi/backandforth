@@ -46,15 +46,41 @@ body
   filter: none;
 }
 
-.nav > li > a {
+.navbar .nav > li {
   display: block;
-  color: white;
+  float: left;
 }
-
-.nav > li > a:hover {
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 10px 11px;
+  line-height: 19px;
+  color: #999999;
   text-decoration: none;
-  color: white;
-  background-color: #eeeeee;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  font-family: 'Arvo', Georgia, Times, serif;
+  text-transform:uppercase;
+  margin: 0 5px;
+     color: #4FBBDF;
+}
+.navbar .nav > li > a:hover {
+  background-color: transparent;
+  color: #d5d5d5;
+  background-color: #222222;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; 
+
+}
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+  background-color: #222222;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; 
+
+  
 }
 
 #myCarousel
