@@ -8,6 +8,19 @@ body
     background-position: right;
     background-repeat: x-repeat;
 }
+
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 8px;
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 1;
+  color: #4fbbdf;
+  font-family: 'Arvo', Georgia, Times, serif;
+  text-transform: uppercase;
+}
+
 .navbar-inner {
   padding-left: 20px;
   padding-right: 20px;
