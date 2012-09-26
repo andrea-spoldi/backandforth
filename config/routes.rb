@@ -1,4 +1,8 @@
 Backandforth::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
    match '/gigs' => 'gigs#index', :via => :get
    match '/bio' => 'home#bio', :via => :get
 
