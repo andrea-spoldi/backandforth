@@ -2,10 +2,12 @@
 @import "bootstrap-responsive";
 
 @font-face {
-  font-family: 'Magneto';
-  src: asset-url('MAGNETO_FOO.ttf', font) format('truetype'),
-  font-weight: normal;
-  font-style: normal;
+    font: {
+       family: 'Magneto';
+       weight: 'normal';
+       style: 'normal';
+    }
+  src: asset-url('MAGNETO_FOO.ttf', font) format('truetype');
 }
 
 body
