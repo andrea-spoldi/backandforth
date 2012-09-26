@@ -1,7 +1,5 @@
 Backandforth::Application.routes.draw do
-  get "home/bio"
-
-  get "home/index"
+   match '/bio' => 'home#bio', :via => :get
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
