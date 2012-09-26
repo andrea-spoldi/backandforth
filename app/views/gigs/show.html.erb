@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Data:</b>
+  <%= @gig.data %>
+</p>
+
+<p>
+  <b>Luogo:</b>
+  <%= @gig.luogo %>
+</p>
+
+<p>
+  <b>Note:</b>
+  <%= @gig.note %>
+</p>
+
+
+<%= link_to 'Edit', edit_gig_path(@gig) %> |
+<%= link_to 'Back', gigs_path %>

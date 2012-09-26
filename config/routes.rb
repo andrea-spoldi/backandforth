@@ -1,4 +1,6 @@
 Backandforth::Application.routes.draw do
+  resources :gigs
+
    match '/bio' => 'home#bio', :via => :get
 
   # The priority is based upon order of creation:
