@@ -39,10 +39,11 @@ h2
     position: relative;
     margin-top: 20px;
 }
-h2.one {    margin-top: 0 }
+h2.one { margin-top: 0 }
 
 h2.one span
-{
+{   
+    color: #ffffff;
     padding: 0  20px 0 0;
     position: relative;
     z-index: 5;
