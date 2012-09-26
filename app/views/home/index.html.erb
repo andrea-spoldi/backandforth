@@ -29,8 +29,7 @@
                 <img src="http://placehold.it/260x180" alt="">
                 <h5>Prossimo live</h5>
                 <% Gig.find(:last) do |gig| %>
-                <p><%= gig.data %></p>
-                <p><%= gig.luogo %></p>
+                <p><%= gig.data %> | <%= gig.luogo %></p>
                 <% end %>
                 </div>
             </li>
