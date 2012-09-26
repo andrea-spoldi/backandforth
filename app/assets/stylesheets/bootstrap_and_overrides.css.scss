@@ -34,21 +34,15 @@ body
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #000000;
-  background-image: -moz-linear-gradient(top, grayDark, #000000);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(grayDark), to(#000000));
-  background-image: -webkit-linear-gradient(top, grayDark, #000000);
-  background-image: -o-linear-gradient(top, grayDark, #000000);
-  background-image: linear-gradient(to bottom, grayDark, #000000);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
-  border: 1px solid #000000;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  background-color: #000; /* background color will be black for all browsers */
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
 }
 
 #myCarousel
