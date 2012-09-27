@@ -1,6 +1,6 @@
 <h2>Prossimi Live 2012 - 2013</h2>
 
-<table class="table table-hover">
+<table class="table table-striped">
   <thead>
     <th>Data</th>
     <th>Luogo</th>
@@ -24,7 +24,7 @@
 
 <h2>Archivio Live</h2>
 
-<table class="table table-hover">
+<table class="table table-striped">
   <thead>
     <th>Data</th>
     <th>Luogo</th>
@@ -38,9 +38,9 @@
 <% @past_gigs = Gig.where('data < ?', Date.today).order(:data) %>
 <% @past_gigs.each do |gig| %>
   <tr>
-    <td><%= gig.data %></td>
-    <td><%= gig.luogo %></td>
-    <td><%= gig.note %></td>
+    <td><p><%= gig.data %></p></td>
+    <td><p><%= gig.luogo %></p></td>
+    <td><p><%= gig.note %></p></td>
   </tr>
 <% end %>
 </tbody>
