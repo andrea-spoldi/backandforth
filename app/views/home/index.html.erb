@@ -28,7 +28,7 @@
                 <div class="thumbnail">
                 <img src="http://placehold.it/260x180" alt="">
                 <h5>Prossimo live</h5>
-                <% Gig.find(:first, :order => "data", :conditions => ['data >= ?', Date.today]) %>
+                
                 <p><%= gig.data %> | <%= gig.luogo %></p>
                 <% end %>
                 </div>
