@@ -11,8 +11,8 @@
   </thead>
   </tr>
 <tbody>
-<% @prossimi = Gig.where('data >= ?', Date.today).order(:data) %>
-<% @prossimi.each do |gig| %>
+<% @forthcoming_gigs = Gig.where('data >= ?', Date.today).order(:data) %>
+<% @forthcoming_gigs.each do |gig| %>
   <tr>
     <td><%= gig.data %></td>
     <td><%= gig.luogo %></td>
@@ -35,8 +35,8 @@
   </thead>
   </tr>
 <tbody>
-<% @prossimi = Gig.where('data < ?', Date.today).order(:data) %>
-<% @prossimi.each do |gig| %>
+<% @past_gigs = Gig.where('data < ?', Date.today).order(:data) %>
+<% @past_gigs.each do |gig| %>
   <tr>
     <td><%= gig.data %></td>
     <td><%= gig.luogo %></td>
