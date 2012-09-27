@@ -11,7 +11,7 @@
   </thead>
   </tr>
 <tbody>
-<% @gigs.each do |gig| %>
+<% Gig.find(:all, :order => "data", :conditions => ['data >= ?', Date.today]) do |gig| %>
   <tr>
     <td><%= gig.data %></td>
     <td><%= gig.luogo %></td>
