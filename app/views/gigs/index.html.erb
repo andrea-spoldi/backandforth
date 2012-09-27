@@ -12,7 +12,7 @@
   </tr>
 <tbody>
 <% @prossimi = Gig.find(:all, :order => "data", :conditions => ['data >= ?', Date.today]) %>
-<% prossimi.each do |gig| %>
+<% @prossimi.each do |gig| %>
   <tr>
     <td><%= gig.data %></td>
     <td><%= gig.luogo %></td>
