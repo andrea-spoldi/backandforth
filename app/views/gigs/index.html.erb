@@ -14,9 +14,9 @@
 <% @forthcoming_gigs = Gig.where('data >= ?', Date.today).order(:data) %>
 <% @forthcoming_gigs.each do |gig| %>
   <tr>
-    <td><%= gig.data %></td>
-    <td><%= gig.luogo %></td>
-    <td><%= gig.note %></td>
+    <td><p><%= gig.data %></p></td>
+    <td><p><%= gig.luogo %></p></td>
+    <td><p><%= gig.note %></p></td>
   </tr>
 <% end %>
 </tbody>
