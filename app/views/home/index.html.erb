@@ -28,7 +28,7 @@
                 <div class="thumbnail">
                 <img src="http://placehold.it/260x180" alt="">
                 <h5>Prossimo live</h5>
-                <% Gig.where('data >= ?', Date.today).order(:data).first do |gig| %>
+                <% Gig.find(:first, :order => "data", :conditions => ['data >= ?', Date.today]) do |gig| %>
                 <p><%= gig.data %> | <%= gig.luogo %></p>
                 <% end %>
                 </div>
