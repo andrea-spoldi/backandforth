@@ -1,4 +1,4 @@
-<h2>Prossimi live 2012 - 2013</h2>
+<h2>Prossimi Live 2012 - 2013</h2>
 
 <table class="table table-hover">
   <thead>
@@ -21,5 +21,30 @@
 <% end %>
 </tbody>
 </table>
+
+<h2>Archivio Live</h2>
+
+<table class="table table-hover">
+  <thead>
+    <th>Data</th>
+    <th>Luogo</th>
+    <th>Note</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </thead>
+  </tr>
+<tbody>
+<% @prossimi = Gig.where('data < ?', Date.today).order(:data) %>
+<% @prossimi.each do |gig| %>
+  <tr>
+    <td><%= gig.data %></td>
+    <td><%= gig.luogo %></td>
+    <td><%= gig.note %></td>
+  </tr>
+<% end %>
+</tbody>
+</table>
+
 
 <br />
